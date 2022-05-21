@@ -37,6 +37,8 @@ public function getAge(){
 
 }
 
+$student_vishal = new Main_school();
+
 //comments made
 // new line
 
