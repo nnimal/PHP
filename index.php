@@ -41,6 +41,17 @@ $student_vishal = new Main_school();
 
 //comments made
 // new line
+// Callback 
+// main
+function display($in , $out){
+    return $out($in)
+    }
+//reply
+ function add($ad){
+echo 'Nimal';
+ }
+//run
+display (12,add(9[
 
 ?>
 
