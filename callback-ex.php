@@ -11,5 +11,5 @@ function get_name($yourname,$show){
 
 // run
 get_name('Nimalananthan','dispaly_name');
-
+ //magfew
 ?>
