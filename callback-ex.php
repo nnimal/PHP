@@ -1,4 +1,4 @@
-<? php
+<?php
   // Basic Funcction
    function display_name($name){
   echo "my name is {$name}";
@@ -11,3 +11,5 @@ function get_name($yourname,$show){
 
 // run
 get_name('Nimalananthan','dispaly_name');
+
+?>
