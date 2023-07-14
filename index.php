@@ -1,57 +1,70 @@
-<?php
-interface Year_01{
-    public function book_order();
-    public function name_list();
-    public function marks_list();
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title><?php echo "This is Nims site's";?></title>
+</head>
+<body>
+	<?php
+	$num=1;
+	$name='Alex';
+	$status=true;
+	// $password='passWord';
+	// for ($i=0; $i <=10; $i++) { 
+	// 	echo "{$i}" ;
+	// 	if ($i !=10) {
+	// 		echo ',';
+	// 	}
+	// 		if ($password=='passWord') {
+	// 		echo "{$password}"."+";}
+	// 		else{
+	// 			echo 'Alex';
+	// 		}
+	// 	}
+	$age=18;
+	if ($age>=21) {
+		echo 'you\'re eligible to drink beer in USA';
+ 	}
+ 	elseif ($age >=18) {
+ 		echo 'eligible drink beer in UK your age is'."{$age}";
+ 	}
+ 	else {
+ 		echo 'You\'re not dirnk any beer in USA and UK age is below '. "{$age}";
+ 		echo '<br>';
+ 		echo '135%2 is '. 135%2;
+ 	}
+ 	echo '<br>';
+	echo ++$num;
+	echo '<br>';
+	echo $num;
+	echo '<br>';
+	echo $num++;
+	echo '<br>';
+	echo $num;
+	echo '<br>';
+if($age <> 18){
+	echo 'its True';
+	$status=false;
+}
+else {
+	echo 'Not True';
 }
 
-class Main_school implements Year_01{
- public string $stu_name;
- public string $std_city;
- private int $stu_age;
- public string $stu_studing_year;
-
- public function __construct(){
-
- }
-public function setAge($age){
-    $this->stu_age = $age;
+if ($status==true) {
+	echo '<br>';
+	echo 'allowed';
+	// code...
 }
-
-public function getAge(){
-    return $this->stu_age;
-}
-
-
- public function book_order(){
-
- }
-
- public function name_list(){
-
- }
- public function marks_list(){
-
-
- }
+else
+{
+	echo '<br>';
+	echo 'Not Allowed';
 
 }
+	?>
 
-$student_vishal = new Main_school();
 
-//comments made
-// new line
-// Callback 
-// main
-function display($in , $out){
-    return $out($in)
-    }
-//reply
- function add($ad){
-echo 'Nimal';
- }
-//run
-display (12,add(9[
 
-?>
-
+</body>
+</html>
